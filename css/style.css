@@ -1,0 +1,111 @@
+@font-face {
+	font-family: myfont;
+	src: url(../fonts/myfont.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    background:linear-gradient(45deg, #FBD7F3, #F6A3AB);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.bar {
+    width: 100%;
+    height: 24px;
+}
+
+.icon {
+    padding-left: 100px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.logo {
+    text-align: center;
+    font-family: myfont;
+    color: #fff;
+}
+
+.h1 {
+    font-size: 32px;
+}
+
+.icon2 {
+    padding-left: 60px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+.intro {
+    padding-top: 15px;
+}
+
+.container {
+    overflow: hidden;
+    width: 80%;
+}
+
+.body {
+    padding-top: 140px;
+    float: left;
+    width: 40%;
+}
+
+.h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: myfont;
+    font-size: 50px;
+    font-weight: 400;
+    color: #AC7475;
+    float: left;
+    width: 100%;
+}
+
+.p_b {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #AC7475;
+    float: left;
+}
+
+.body2 {
+    padding: 60px 0 100px 50px;
+    float: right;
+    width: 50%;
+}
+
+.cupcake {
+    width: 90%;
+}
+
+.container2 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.ending {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    background-color: #87C7E2;
+}
+
+.last {
+    font-size: 14px;
+    color: #fff;
+}
+
+.last span {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
